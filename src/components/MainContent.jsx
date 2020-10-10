@@ -13,8 +13,13 @@ class MainContent extends React.Component {
         }
         this.handleChange = this.handleChange.bind(this);
     }
+    clearTagInput=()=>{
+        document.getElementById('tagInput').value="";
+    }
     searchButtonClick=()=>{
-        this.addToAllowedTags(this.state.tag)
+        this.addToAllowedTags(this.state.tag);
+        this.setState({tag:""});
+        this.clearTagInput();
     }
 
     handleChange(event) {
@@ -24,6 +29,7 @@ class MainContent extends React.Component {
         if(event.key==='Enter'){
             this.addToAllowedTags(this.state.tag);
             this.setState({tag:""});
+            this.clearTagInput();
         }
     }
 
@@ -48,6 +54,15 @@ class MainContent extends React.Component {
     }
 
     addToAllowedTags=tag=>{
+        if(tag==='')return;
+        let i,flag=false;
+        for(i=0;i<tag.length;i++){
+            if(('a'<=tag[i]&&tag[i]<='z')||('A'<=tag[i]&&tag[i]<='Z')){
+                flag=true;
+                break;
+            }
+        }
+        if(flag===false)return;
         const {allowedTags}=this.state;
         this.setState({allowedTags:[...allowedTags,tag]})
     }
@@ -57,6 +72,7 @@ class MainContent extends React.Component {
         <div className="main-content">
             <div className="input-link-main">
                 <input 
+                    id="tagInput"
                     type="text" 
                     value={this.state.value} 
                     onChange={this.handleChange} 
@@ -75,16 +91,16 @@ class MainContent extends React.Component {
             <div className="show-tags">
             {
                 this.state.allowedTags.map(tag=>(
-                    <div className="show-tag">#{tag}</div>
+                    <div key={tag} className="show-tag">#{tag}</div>
                 ))
             }
             </div>
             <div className="all-links">
                {links.map(link=>{
                     if(this.showLink(link.tags)){
-                        return <SingleLink url={link.url} name={link.name}/>
+                        return <SingleLink key={link.url} url={link.url} name={link.name}/>
                     }
-                    return <div/>
+                    return <div key={link.url}/>
                })}
             </div> 
         </div>
