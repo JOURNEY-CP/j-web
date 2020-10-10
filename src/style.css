@@ -1,6 +1,6 @@
 .app-main {
     text-align: center;
-    background-color: #3975d7;
+    background-color: #a5d6a7;
     height: 100vh;
     width: 100vw;
 }
@@ -14,12 +14,12 @@
 .top-bar-name{
     padding: 25px;
     font-size: 75px;
-    color: white;
+    color: #303f9f;
 }
 .top-bar-caption{
     padding: 20px;
     font-size: 20px;
-    color: white;
+    color: black;
 }
 .input-link-main {
     width: 60%;
@@ -33,7 +33,8 @@
     margin: 0px 20%;
 }
 .show-tag{
-    background-color: #cccccc;
+    background-color: #795548;
+    color: white;
     margin: 5px;
     padding: 10px;
     font-size: 16px;
@@ -48,6 +49,7 @@
     border: none;
     font-size: 20px;
     padding:0px 20px;
+    background-color: #4caf4f;
 }
 .link-search-button{
     width: 40px;
@@ -55,7 +57,7 @@
     border-radius: 100%;
     border: none;
     outline: none;
-    background-color: red;
+    background-color:#43a046;
 }
 .link-search-button:focus{
     background-color: aqua;
@@ -65,8 +67,10 @@
     text-decoration: none;
     padding: 20px;
     margin: 10px;
+    font-size: 16px;
     width: fit-content;
-    background-color: black;
+    background-color: #3f51b5;
+    border-radius: 28px;
 }
 .single-link-main:hover{
     transform: scale(1.1);
