@@ -1,0 +1,42 @@
+[
+    {
+        "name":"journey",
+        "url":"https://journey-cp.github.io",
+        "tags":["journey","homepage","main"]
+    },
+    {
+        "name":"harsha",
+        "url":"https://sharshach.github.io",
+        "tags":["personal","harsha"]
+    },
+    {
+        "name":"sita",
+        "url":"https://saisitaramvaddavalli.github.io",
+        "tags":["personal","sita"]
+    },
+    {
+        "name":"abhi",
+        "url":"https://abhi-rangana.github.io",
+        "tags":["abhi","personal"]
+    },
+    {
+        "name":"simple chatapp",
+        "url":"https://simple--chat-application.herokuapp.com/",
+        "tags":["sita","chat"]
+    },
+    {
+        "name":"mail us(nitdgp only)",
+        "url":"mailto:journey@btech.nitdgp.ac.in",
+        "tags":["mail","contact","meet"]
+    },
+    {
+        "name":"mail us",
+        "url":"mailto:journeynitdgp@gmail.com",
+        "tags":["mail","contact","meet"]
+    },
+    {
+        "name":"mail us (DEV)",
+        "url":"mailto:hash@googlegroups.com",
+        "tags":["mail","contact","meet"]
+    }
+]
