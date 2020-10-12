@@ -74,6 +74,7 @@ class MainContent extends React.Component {
                 <input 
                     id="tagInput"
                     type="text" 
+                    name="tagInput"
                     value={this.state.value} 
                     onChange={this.handleChange} 
                     className="input-link"
