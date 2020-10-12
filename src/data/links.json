@@ -11,7 +11,7 @@
     },
     {
         "name":"sita",
-        "url":"https://saisitaramvaddavalli.github.io",
+        "url":"https://saisitaram2000.github.io",
         "tags":["personal","sita"]
     },
     {
@@ -38,5 +38,20 @@
         "name":"mail us (DEV)",
         "url":"mailto:hash@googlegroups.com",
         "tags":["mail","contact","meet"]
+    },
+    {
+        "name":"Drive Sem 5 CS",
+        "url":"https://drive.google.com/drive/folders/1uSkvWsjzkPrub6q8fQSILj_edUxjNVt8",
+        "tags":["drive","cs","j3","sem5","acadamic","study"]
+    },
+    {
+        "name":"Dice Game",
+        "url":"https://saisitaram2000.github.io/pig-game/",
+        "tags":["game","sita"]
+    },
+    {
+        "name":"google group tech",
+        "url":"https://groups.google.com/a/btech.nitdgp.ac.in/g/journey",
+        "tags":["nit","google","group","journey","code","mail"]
     }
 ]
