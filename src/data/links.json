@@ -7,7 +7,7 @@
     {
         "name":"harsha",
         "url":"https://sharshach.github.io",
-        "tags":["personal","harsha"]
+        "tags":["personal","harsha","chilukuri"]
     },
     {
         "name":"sita",
@@ -16,13 +16,73 @@
     },
     {
         "name":"abhi",
-        "url":"https://abhi-rangana.github.io",
+        "url":"https://abhirangana.github.io",
         "tags":["abhi","personal"]
     },
     {
         "name":"simple chatapp",
         "url":"https://simple--chat-application.herokuapp.com/",
-        "tags":["sita","chat"]
+        "tags":["sita","chat","peer"]
+    },
+    {
+        "name":"Drive Sem 5 CS",
+        "url":"https://drive.google.com/drive/folders/1uSkvWsjzkPrub6q8fQSILj_edUxjNVt8",
+        "tags":["drive","cs","j3","sem5","sem","acadamic","study"]
+    },
+    {
+        "name":"Drive Sem 6 CS",
+        "url":"https://drive.google.com/drive/folders/1-idgPJJ1xVFNNSneGrQSnY-Kazb3omx_",
+        "tags":["drive","cs","j3","sem6","sem","acadamic","study"]
+    },
+    {
+        "name":"Dice Game",
+        "url":"https://saisitaram2000.github.io/pig-game/",
+        "tags":["game","sita"]
+    },
+    {
+        "name":"google group tech",
+        "url":"https://groups.google.com/a/btech.nitdgp.ac.in/g/journey",
+        "tags":["nit","google","group","journey","code","mail"]
+    },
+    {
+        "name":"jobstocker",
+        "url":"https://jobstocker.web.app",
+        "tags":["job","intern","share","stocker","jobstocker"]
+    },
+    {
+        "name":"Rock Paper Scissors",
+        "url":"https://sriramsasi03.github.io/RPS/",
+        "tags":["game","small","project","smallproject","sriram"]
+    },
+    {
+        "name":"NOTES",
+        "url":"https://journey-cp.github.io/NOTES/",
+        "tags":["study","notes","learn","j10"]
+    },
+    {
+        "name":"coding practice problems",
+        "url":"https://journey-cp.github.io/j10/",
+        "tags":["study","notes","learn","j10"]
+    },
+    {
+        "name":"Coding Concepts",
+        "url":"https://journey-cp.github.io/LEARN/",
+        "tags":["study","notes","learn","j10"]
+    },
+    {
+        "name":"Space X project",
+        "url":"https://spacexmissions-v3.web.app/",
+        "tags":["sita","space","spacex","react","project"]
+    },
+    {
+        "name":"Developers Profile",
+        "url":"https://developers-profiles.herokuapp.com/",
+        "tags":["vinay","react","express","mongodb","project","developer","share"]
+    },
+    {
+        "name":"Qr Food Order",
+        "url":"https://journey-restaurant.herokuapp.com/",
+        "tags":["abhi","harsha","sita","react","express","mongodb","project"]
     },
     {
         "name":"mail us(nitdgp only)",
@@ -38,20 +98,5 @@
         "name":"mail us (DEV)",
         "url":"mailto:hash@googlegroups.com",
         "tags":["mail","contact","meet"]
-    },
-    {
-        "name":"Drive Sem 5 CS",
-        "url":"https://drive.google.com/drive/folders/1uSkvWsjzkPrub6q8fQSILj_edUxjNVt8",
-        "tags":["drive","cs","j3","sem5","acadamic","study"]
-    },
-    {
-        "name":"Dice Game",
-        "url":"https://saisitaram2000.github.io/pig-game/",
-        "tags":["game","sita"]
-    },
-    {
-        "name":"google group tech",
-        "url":"https://groups.google.com/a/btech.nitdgp.ac.in/g/journey",
-        "tags":["nit","google","group","journey","code","mail"]
     }
 ]
