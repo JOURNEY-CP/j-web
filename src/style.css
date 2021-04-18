@@ -1,9 +1,18 @@
 .app-main {
     text-align: center;
-    background-color: #a5d6a7;
-    height: 100vh;
+    background-image: linear-gradient( #ececff,#3fd96d);
+    min-height: 100vh;
     width: 100vw;
+    animation: app-main-animation 1s 1;
 }
+@keyframes app-main-animation {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+  }
 .app-main-content{
     height: calc(100vh - 100px);
     display: flex;
